@@ -1,6 +1,7 @@
 const navButton = document.getElementById("nav-icon");
 const mainHeader = document.getElementById("header-main");
 const header = document.querySelector("header");
+const main = document.querySelector("main");
 
 
 function displayNav() {
@@ -26,10 +27,10 @@ function displayNav() {
 
     const navContainer = document.createElement("nav");
     navContainer.innerHTML = '<ul>'+
-    '<li class="popup-item"><a href>About Me</a></li>'+
-    '<li class="popup-item"><a href>Projects</a></li>'+
+    '<li class="popup-item"><a href="index.html">About Me</a></li>'+
+    '<li class="popup-item"><a href="projects.html">Projects</a></li>'+
     '<li class="popup-item"><a href>Résumé</a></li>'+
-    '<li class="popup-item"><a href>Contact</a></li>'+
+    '<li class="popup-item"><a href="contact.html">Contact</a></li>'+
 '</ul>'
     
     // Add popup menu items to header
@@ -51,6 +52,7 @@ function displayNav() {
     }
     
     exitButton.onclick = closeNav;
+    main.onclick= closeNav;
     window.onresize = closeNav;
 }
 
