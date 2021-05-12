@@ -178,6 +178,10 @@ main {
     }
 }
 
+main p {
+    padding: 1rem 0;
+}
+
 summary {
     font-weight: bold;
     font-size: 1.5rem;
@@ -185,9 +189,20 @@ summary {
     padding: 1rem 0;
 }
 
-main p {
+.section-title {
     padding: 1rem 0;
 }
-.about-me-title {
-    padding: 1rem 0;
+
+.desktop-section {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobile-section {
+        display: none;
+    }
+
+    .desktop-section {
+        display: block;
+    }
 }
