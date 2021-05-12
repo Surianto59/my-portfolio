@@ -111,9 +111,10 @@ header {
 .nav-open {
     background-color: #c0c0c0;
     width: 100%;
-    height: 100%;
+    height: 60%;
     top: 0;
     position: fixed;
+    overflow: scroll;
 }
 
 .popup-item {
@@ -135,6 +136,7 @@ header {
 
 /* Desktop */
 @media (min-width: 768px) {
+
     #nav-main {
         background-color: #c0c0c0;
         display: block;
@@ -146,17 +148,21 @@ header {
     }
     #nav-main ul {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-end;
         
     }
     #nav-main li {
         display: block;
     }
+
     #nav-main a {
-        padding: 1rem;
+        padding: 1rem 3rem;
     }
 }
 
+.current-page-mark {
+    background-color: #909090;
+}
 /******** Main ********/
 
 main {
