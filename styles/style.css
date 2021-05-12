@@ -168,10 +168,26 @@ header {
 main {
     position: relative;
     top: 3.5rem;
+    margin: 0 1rem;
+    line-height: 2rem;
 }
 
 @media (min-width: 768px) {
     main {
         top: 0;
     }
+}
+
+summary {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 1rem 0;
+}
+
+main p {
+    padding: 1rem 0;
+}
+.about-me-title {
+    padding: 1rem 0;
 }
