@@ -294,12 +294,6 @@ summary {
     position: relative;
 }
 
-@media (min-width: 768px) {
-    .grid-item {
-        
-    }
-}
-
 .grid-item figure {
     position: relative;
 }
