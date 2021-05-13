@@ -175,7 +175,7 @@ main {
     display: flex;
 }
 
-.project-main {
+.block-main {
     display: block;
 }
 
@@ -342,4 +342,21 @@ summary {
     background-color: #0000ff55;
 }
 
+.contact-container {
+    background-color: #c0c0c0;
+    display: inline-block;
+    margin: 2rem 2rem 0 2rem;
+    width: 100%;
+    max-width: 35rem;
+    border-top: 3px solid #f0f0f0;
+    border-left: 3px solid #f0f0f0;
+    border-right: 3px solid #808080;
+    border-bottom: 3px solid #808080;
+    padding: 12px;
+}
 
+@media (min-width: 768px) {
+    .contact-container {
+        right: auto;
+    }
+}
