@@ -183,6 +183,10 @@ main {
     main {
         top: 0;
     }
+    
+    .project-main {
+        margin: 0 2rem;
+    }
 }
 
 main p {
@@ -273,6 +277,7 @@ summary {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 1rem;
     
 }
 
@@ -291,7 +296,7 @@ summary {
 
 @media (min-width: 768px) {
     .grid-item {
-        margin: 12px;
+        
     }
 }
 
