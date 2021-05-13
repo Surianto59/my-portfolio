@@ -8,6 +8,7 @@
 
 body {
     position: relative;
+    background-color: #efefef;
 }
 
 /******** Header ********/
@@ -272,13 +273,14 @@ summary {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 5% 0;
+    
 }
 
 @media (min-width: 768px) {
     .grid-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
+        padding: 5% 0;
     }
 }
 
@@ -304,7 +306,8 @@ summary {
 
 .grid-item figcaption {
     font-size: 1.5rem;
-    background-color: #c0c0c0;
+    background-color: #000099;
+    color: #efefef;
     position: absolute;
     bottom: 0;
     z-index: 3;
