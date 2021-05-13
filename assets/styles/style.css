@@ -68,6 +68,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
+    cursor: pointer;
 }
 .line {
     height: .25rem;
@@ -93,6 +94,7 @@ header {
     height: 2rem;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 .cross-line {
     position: absolute;
