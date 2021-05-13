@@ -111,6 +111,10 @@ header {
     transform: rotate(-45deg);
 }
 
+#button-exit:hover .cross-line{
+    background-color: #0000ff;
+}
+
 .nav-open {
     background-color: #c0c0c0;
     width: 100%;
@@ -131,6 +135,10 @@ header {
     padding: 5% 0;
     border-bottom: 1px solid #909090;
     margin: 0 1rem;
+}
+
+.popup-item a:hover {
+    color: #000099;
 }
 
 #nav-main {
