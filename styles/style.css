@@ -343,21 +343,21 @@ summary {
 }
 
 .contact-container {
+    box-sizing: border-box;
     background-color: #a0a0a0;
-    display: inline-block;
-    margin: 2rem;
-    width: 100%;
+    margin: 0 2rem 2rem 2rem;
     max-width: 35rem;
+    width: calc(100%-4rem);
     border-top: 3px solid #f0f0f0;
     border-left: 3px solid #f0f0f0;
     border-right: 3px solid #808080;
     border-bottom: 3px solid #808080;
-    padding: 12px;
+    padding: 1rem;
 }
 
 @media (min-width: 768px) {
     .contact-container {
-        right: auto;
+        margin-top: 2rem;
     }
 }
 
