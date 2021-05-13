@@ -203,7 +203,7 @@ main p {
         display: inline-block;
         position: relative;
         height: 40vh;
-        padding: 2rem 2rem;
+        padding: 0 2rem;
         margin: 2rem 0 2rem 2rem;
         border-top: 3px solid #f0f0f0;
         border-left: 3px solid #f0f0f0;
